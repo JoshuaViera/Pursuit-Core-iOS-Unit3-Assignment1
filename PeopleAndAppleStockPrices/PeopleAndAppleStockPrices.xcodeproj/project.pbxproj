@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */; };
-		577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577E5BED21BA8BA10083EB97 /* ViewController.swift */; };
 		577E5BF121BA8BA10083EB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BEF21BA8BA10083EB97 /* Main.storyboard */; };
 		577E5BF321BA8BA20083EB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF221BA8BA20083EB97 /* Assets.xcassets */; };
 		577E5BF621BA8BA20083EB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BF421BA8BA20083EB97 /* LaunchScreen.storyboard */; };
 		577E5BFF21BA8C3B0083EB97 /* userinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 577E5BFE21BA8C3B0083EB97 /* userinfo.json */; };
 		577E5C0121BA8C5C0083EB97 /* applstockinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 577E5C0021BA8C5C0083EB97 /* applstockinfo.json */; };
+		6193842E21C1B5770048712E /* StockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193842D21C1B5770048712E /* StockVC.swift */; };
+		6193843021C1B5860048712E /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193842F21C1B5860048712E /* PeopleVC.swift */; };
+		6193843221C1B5A20048712E /* DetailStockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193843121C1B5A20048712E /* DetailStockVC.swift */; };
+		6193843421C1B5B10048712E /* DetailPeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193843321C1B5B10048712E /* DetailPeopleVC.swift */; };
+		6193843721C1BF660048712E /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193843621C1BF660048712E /* People.swift */; };
+		6193843921C1BF7B0048712E /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193843821C1BF7B0048712E /* Stock.swift */; };
+		6193843D21C1C7CA0048712E /* PeopleParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6193843C21C1C7CA0048712E /* PeopleParserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		577E5BE821BA8BA10083EB97 /* PeopleAndAppleStockPrices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleAndAppleStockPrices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577E5BEB21BA8BA10083EB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		577E5BED21BA8BA10083EB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		577E5BF021BA8BA10083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577E5BF221BA8BA20083EB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577E5BF521BA8BA20083EB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577E5BF721BA8BA20083EB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577E5BFE21BA8C3B0083EB97 /* userinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userinfo.json; sourceTree = "<group>"; };
 		577E5C0021BA8C5C0083EB97 /* applstockinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = applstockinfo.json; sourceTree = "<group>"; };
+		6193842D21C1B5770048712E /* StockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockVC.swift; sourceTree = "<group>"; };
+		6193842F21C1B5860048712E /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
+		6193843121C1B5A20048712E /* DetailStockVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStockVC.swift; sourceTree = "<group>"; };
+		6193843321C1B5B10048712E /* DetailPeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPeopleVC.swift; sourceTree = "<group>"; };
+		6193843621C1BF660048712E /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		6193843821C1BF7B0048712E /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		6193843C21C1C7CA0048712E /* PeopleParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleParserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,9 @@
 		577E5BEA21BA8BA10083EB97 /* PeopleAndAppleStockPrices */ = {
 			isa = PBXGroup;
 			children = (
-				577E5BED21BA8BA10083EB97 /* ViewController.swift */,
+				6193843B21C1C7970048712E /* Services */,
+				6193843A21C1BF830048712E /* Models */,
+				6193843521C1B5C90048712E /* ViewControllers */,
 				577E5BEF21BA8BA10083EB97 /* Main.storyboard */,
 				577E5BFD21BA8BE20083EB97 /* Supporting Files */,
 				577E5BF721BA8BA20083EB97 /* Info.plist */,
@@ -84,6 +98,34 @@
 				577E5C0021BA8C5C0083EB97 /* applstockinfo.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		6193843521C1B5C90048712E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6193842D21C1B5770048712E /* StockVC.swift */,
+				6193842F21C1B5860048712E /* PeopleVC.swift */,
+				6193843121C1B5A20048712E /* DetailStockVC.swift */,
+				6193843321C1B5B10048712E /* DetailPeopleVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6193843A21C1BF830048712E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6193843821C1BF7B0048712E /* Stock.swift */,
+				6193843621C1BF660048712E /* People.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6193843B21C1C7970048712E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6193843C21C1C7CA0048712E /* PeopleParserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577E5BEE21BA8BA10083EB97 /* ViewController.swift in Sources */,
+				6193843421C1B5B10048712E /* DetailPeopleVC.swift in Sources */,
 				577E5BEC21BA8BA10083EB97 /* AppDelegate.swift in Sources */,
+				6193843021C1B5860048712E /* PeopleVC.swift in Sources */,
+				6193843921C1BF7B0048712E /* Stock.swift in Sources */,
+				6193843221C1B5A20048712E /* DetailStockVC.swift in Sources */,
+				6193843721C1BF660048712E /* People.swift in Sources */,
+				6193842E21C1B5770048712E /* StockVC.swift in Sources */,
+				6193843D21C1C7CA0048712E /* PeopleParserService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
